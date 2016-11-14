@@ -1,0 +1,17 @@
+NOMBRE PROYECTO:
+Sneakers-Shop
+
+---------------------
+
+INTEGRANTES:
+Facundo Bayle = PHP a Objetos, jQuery, validacion registro
+
+Guido Tevah = PHP a Objetos
+
+Tomas Lisovich = PHP a Objetos
+
+Nahuel Alejandro Cabrera = PHP a Objetos
+
+---------------------
+
+Se realizaron todos los puntos del Sprint N°3, sin resolver el punto optativo. Tambien se realizaron mejoras con respecto a la seccion de categorias, a la vez de aplicar jQuery para realizar mejoras en cuanto a las animaciones en FAQ y la aparicion del ingreso de la pagina y el contenedor con las categorias.

@@ -1,0 +1,324 @@
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  height: auto;
+}
+
+/*ENCABEZADO*/
+header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 55px;
+  margin-left: 90px;
+  text-decoration: none;
+}
+
+.encabezado img {
+  width: 140px;
+  height: 80px;
+  margin-top: 19px;
+  margin-left: 6px;
+}
+
+.encabezado ul {
+  list-style-type: none;
+  float: right;
+  margin-top: -81px;
+}
+
+.encabezado li {
+  display: inline;
+  text-align: center;
+}
+
+.encabezado li a {
+  font-size: 20px;
+  padding: 0 12px;
+  color: white;
+  border-right: 1px solid white;
+  text-decoration: none;
+  font-style: italic;
+
+}
+
+.encabezado li a:hover{
+  background-color: #16aa56;
+}
+
+.registro {
+  margin-right: 20px;
+}
+
+/*BARRA DE NAVEGACION*/
+
+.barra-navegacion {
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.barra-navegacion ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 8px;
+  margin-top: 0px;
+}
+
+.barra-navegacion li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  padding: 20px 30px;
+}
+
+.barra-navegacion li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.barra-navegacion li a:hover {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.barra-navegacion li a:visited {
+  color: black;
+}
+
+/*CONTENIDO*/
+.preg-frec,
+.compras,
+.ventas,
+.reglas {
+  width: 70%;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin: auto;
+}
+/*PREGUNTAS FRECUENTES*/
+
+.preg-frec h1 {
+  font-size: 23px;
+  font-style: italic;
+  margin-left: 45px;
+  padding-top: 20px;
+}
+
+.preg-frec p,
+.preg-frec p p {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+ol li {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/*COMPRAS*/
+
+.compras h1 {
+  font-size: 23px;
+  font-style: italic;
+  margin-left: 45px;
+  padding-top: 20px;
+}
+
+.compras p,
+.compras p p {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.compras ul li {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/*VENTAS*/
+
+.ventas h1 {
+  font-size: 23px;
+  font-style: italic;
+  margin-left: 45px;
+  padding-top: 20px;
+}
+
+.ventas p,
+.ventas p p {
+  font-size: 15px;
+  margin-left: 12px;
+  line-height: 20px;
+}
+
+.ventas ul li {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/*REGLAS*/
+
+.reglas h1 {
+  font-size: 23px;
+  font-style: italic;
+  margin-left: 45px;
+  padding-top: 20px;
+}
+
+.reglas p,
+.reglas p p {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+.reglas ul li {
+  font-size: 15px;
+  margin-left: 12px;
+}
+
+/*PIE DE PAGINA*/
+.pie {
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 85px;
+  margin-top: 70px;
+}
+
+.pie ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding: 33px;
+}
+
+.pie li {
+  display: inline-block;
+  border-right: 1px solid black;
+}
+
+.pie li:hover {
+  background-color: #16aa56;
+}
+
+.pie a:hover {
+  color: white;
+}
+
+.pie a {
+  border right: 1px solid black;
+  font-size: 20px;
+  border-bottom: none;
+  padding: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.icon-twitter {
+  float: right;
+  margin-left: 10px;
+}
+
+.icon-twitter:hover {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-facebook {
+  float: right;
+}
+
+.icon-facebook:hover {
+  width: 35px;
+  height: 35px;
+}
+
+/*WEB RESPONSIVE*/
+
+/*desde 1130px en width hacia abajo*/
+@media (max-width: 1130px) {
+
+  .encabezado img {
+    text-align: center;
+    margin-top: 19px;
+  }
+
+  .logo {
+    margin-left: 15px;
+  }
+
+  .barra-navegacion {
+    margin-top: 20px;
+  }
+}
+
+/*desde 730px en width hacia abajo*/
+@media (max-width: 730px) {
+
+  .barra-navegacion ul  {
+    padding: 0;
+  }
+  .barra-navegacion li {
+    display: block;
+    border-bottom: 1px solid white;
+    padding: 7px;
+  }
+  .barra-navegacion li a {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-right: none;
+  }
+}
+
+/*desde 550px en width hacia abajo*/
+@media (max-width: 550px) {
+  .encabezado ul {
+    margin-top: -108px;
+  }
+
+  .encabezado li {
+    display: block;
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+
+  .encabezado ul li a {
+    border-right: none;
+    text-align: center;
+  }
+
+  .pie {
+    height: 119px;
+    margin-top: 35px;
+  }
+
+  .pie ul  {
+    padding: 0;
+  }
+  .pie li {
+    display: block;
+    border-bottom: 1px solid white;
+
+  }
+  .pie li a {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-right: none;
+  }
+}

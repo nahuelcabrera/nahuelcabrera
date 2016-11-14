@@ -5,12 +5,17 @@
 | Web Routes
 |--------------------------------------------------------------------------
 |
-| This file is where you may define all of the routes that are handled
-| by your application. Just tell Laravel the URIs it should respond
-| to using a Closure or controller method. Build something great!
+| En este archivo se pueden definir todas las rutas que se manejan
+| por su aplicación. Sólo digale a laravel los URL que debe responder
+| al uso de un método de cierre o controlador. Construye algo grande!
+|Metodos posibles a solicitar: get, post, delete, put, etc.
 |
 */
 
-Route::get('/', function () {
+/*CONTROLADOR INDEX*/
+Route::get('index', 'IndexController@index' );
+
+/*CONTROLADOR WELCOME DEFAULT FROM LARAVEL*/
+Route::get('/', function(){
     return view('welcome');
 });

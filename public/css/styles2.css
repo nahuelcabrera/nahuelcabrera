@@ -1,0 +1,366 @@
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/*ENCABEZADO*/
+header {
+  width: 100%;
+  height: 65px;
+  background-color: black;
+}
+
+.logo {
+  color: white;
+  font-size: 55px;
+  margin-left: 90px;
+}
+
+.encabezado img {
+  width: 140px;
+  height: 80px;
+  margin-top: 5px;
+  margin-left: 27px;
+}
+
+.encabezado ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+.encabezado li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 10px;
+  padding: 20px 30px;
+}
+
+.material-icons {
+  float: right;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 3%;
+  right: 5%;
+}
+
+.material-icons:hover {
+  font-size: 25px;
+}
+
+/*AVISO REGISTRO*/
+.caja {
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+}
+
+.caja h2 {
+  border: none;
+  margin-top: -3px;
+}
+
+.caja-ingreso,
+.caja-registro {
+  padding: 4px 0;
+  text-align: center;
+  margin-top: -2px;
+  width: 100%;
+  height: 50px;
+}
+
+.texto {
+  color: gray;
+}
+
+.inline-title {
+  display: inline-block;
+}
+
+.boton {
+  font-size: 18px;
+  color: white;
+  background-color: #16aa56;
+  padding: 6px 15px;
+  border: 1px solid #16aa56;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.boton:hover {
+  background: gray;
+}
+
+/*INGRESO*/
+h2 {
+  color: #46485c;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 7px;
+  margin-top: -5px;
+  border-bottom: 3px solid #16aa56;
+  padding: 10px;
+}
+
+a {
+  color: #46485c;
+  text-decoration: none;
+}
+
+.registro {
+  width: 465px;
+  margin: auto;
+  background: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-top: 67.5px;
+  margin-bottom: 30px;
+}
+
+.cartel-contador {
+  width: 405px;
+  height: 30px;
+  margin: auto;
+}
+
+.texto-cartel,
+.contador {
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  background-color: gray;
+}
+
+.ingreso {
+  width: 310px;
+  margin: auto;
+  background: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 405px;
+  padding: 20px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid gray;
+  outline: none;
+  color: #46485c;
+  font-size: 12px;
+}
+
+input[type="submit"] {
+  background: #16aa56;
+  border: 0;
+  width: 121px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-left: 78px;
+}
+
+input[type="submit"]:hover {
+  background: gray;
+}
+
+input[type="reset"] {
+  background: #16aa56;
+  border: 0;
+  width: 121px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+input[type="reset"]:hover {
+  background: gray;
+}
+
+.olvido {
+  margin-top: 30px;
+  display: block;
+  font-size: 13px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.olvido:hover {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.recuerda {
+  padding: 20px 0px;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.accede {
+  font-size: 15px;
+}
+
+input::-webkit-input-placeholder {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #46485c;
+}
+
+input:-moz-placeholder {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #46485c;
+}
+
+input:-ms-input-placeholder {
+  font-size: 15px;
+  letter-spacing: 3px;
+  color: #46485c;
+}
+
+/*PIE DE PAGINA*/
+.pie {
+  background-color: rgba(0,0,0,0.2);
+  width: 100%;
+  height: 85px;
+  margin-top: 67.5px;
+}
+
+.pie ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  padding-top: 33px;
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.pie li {
+  display: inline-block;
+  border-right: 1px solid black;
+}
+
+.pie li:hover {
+  background-color: #16aa56;
+}
+
+.pie a:hover {
+  color: white;
+}
+
+.pie a {
+  border right: 1px solid black;
+  font-size: 20px;
+  border-bottom: none;
+  padding: 5px;
+  color: black;
+}
+
+.icon-twitter {
+  float: right;
+  margin-left: 10px;
+}
+
+.icon-twitter:hover {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-facebook {
+  float: right;
+}
+
+.icon-facebook:hover {
+  width: 35px;
+  height: 35px;
+}
+
+/*WEB RESPONSIVE*/
+
+/*desde 1050px en width hacia abajo*/
+@media (max-width:1050px) {
+  header{
+    height: 80px;
+  }
+  .encabezado {
+    text-align: center;
+  }
+
+  .encabezado img {
+    margin-top: 19px;
+    margin-left: 0;
+  }
+
+  .caja-registro {
+    margin-top: 20px;
+  }
+
+  .caja-ingreso {
+    margin-top: 20px;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .material-icons {
+    top: 4%;
+  }
+
+}
+
+/*desde 407px en width hacia abajo*/
+@media (max-width:407px) {
+  .caja-registro {
+    height: 90px;
+  }
+
+  .pie {
+    height: 119px;
+    margin-top: 35px;
+  }
+
+  .pie ul  {
+    padding: 0;
+  }
+
+  .pie li {
+    display: block;
+    border-bottom: 1px solid white;
+    border-right: none;
+  }
+
+  .pie li a {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+    text-decoration: none;
+    border-right: none;
+  }
+
+  .icon-twitter {
+    float: none;
+  }
+
+  .icon-facebook {
+    float: none;
+  }
+}
